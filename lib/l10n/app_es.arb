@@ -1,0 +1,44 @@
+{
+  "@@locale": "es",
+
+  "errorNetwork": "No se puede acceder al servidor. Verifique su conexión e inténtelo nuevamente.",
+  "errorTimeout": "No se pudo comunicar con el servidor, vuelva a intentarlo.",
+  "errorSecureConnection": "No se ha podido establecer una conexión segura con el servidor.",
+  "errorJobCancellation": "Tarea cancelada.",
+  "errorUnknown": "Ha ocurrido un error.",
+  "errorEmptyResponse": "Ocurrió un error.",
+
+  "errorUnauthorized": "Su sesión ha expirado. Por favor vuelva a iniciar sesión. {message}",
+  "@errorUnauthorized": { "placeholders": { "message": { "type": "String" } } },
+
+  "errorForbidden": "¡Acceso denegado! {message}",
+  "@errorForbidden": { "placeholders": { "message": { "type": "String" } } },
+
+  "errorBadRequest": "El servidor no puede procesar la petición. {message}",
+  "@errorBadRequest": { "placeholders": { "message": { "type": "String" } } },
+
+  "errorNotFound": "Página no disponible. {message}",
+  "@errorNotFound": { "placeholders": { "message": { "type": "String" } } },
+
+  "errorConflict": "La solicitud no pudo completarse debido a un conflicto. {message}",
+  "@errorConflict": { "placeholders": { "message": { "type": "String" } } },
+
+  "errorPayloadTooLarge": "La solicitud es mayor que los límites del servidor. {message}",
+  "@errorPayloadTooLarge": { "placeholders": { "message": { "type": "String" } } },
+
+  "errorMakePayment": "El contenido no está disponible hasta realizar un pago. {message}",
+  "@errorMakePayment": { "placeholders": { "message": { "type": "String" } } },
+
+  "errorServer": "El servidor no está disponible, vuelva a intentarlo. {message}",
+  "@errorServer": { "placeholders": { "message": { "type": "String" } } },
+
+  "email": "Correo",
+  "password": "Contraseña",
+  "enterEmail": "Ingrese el correo electrónico",
+  "rememberMyAccount": "Recordar mi cuenta",
+
+  "enter": "Entrar",
+
+  "enterPasswordMinChars": "Ingresa una contraseña de al menos {count} caracteres",
+  "@enterPasswordMinChars": { "placeholders": { "count": { "type": "int" } } }
+}

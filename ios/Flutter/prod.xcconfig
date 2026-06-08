@@ -1,0 +1,4 @@
+#include "Generated.xcconfig"
+APP_DISPLAY_NAME=Yala
+FLUTTER_TARGET=lib/config/main/main_prod.dart
+PRODUCT_BUNDLE_IDENTIFIER=com.pe.yala

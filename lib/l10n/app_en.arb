@@ -1,0 +1,44 @@
+{
+  "@@locale": "en",
+
+  "errorNetwork": "Unable to reach the server. Please check your connection and try again.",
+  "errorTimeout": "Could not communicate with the server, please try again.",
+  "errorSecureConnection": "Could not establish a secure connection with the server.",
+  "errorJobCancellation": "Task cancelled.",
+  "errorUnknown": "An error has occurred.",
+  "errorEmptyResponse": "An error occurred.",
+
+  "errorUnauthorized": "Your session has expired. Please log in again. {message}",
+  "@errorUnauthorized": { "placeholders": { "message": { "type": "String" } } },
+
+  "errorForbidden": "Access denied! {message}",
+  "@errorForbidden": { "placeholders": { "message": { "type": "String" } } },
+
+  "errorBadRequest": "The server could not process the request. {message}",
+  "@errorBadRequest": { "placeholders": { "message": { "type": "String" } } },
+
+  "errorNotFound": "Page not available. {message}",
+  "@errorNotFound": { "placeholders": { "message": { "type": "String" } } },
+
+  "errorConflict": "The request could not be completed due to a conflict. {message}",
+  "@errorConflict": { "placeholders": { "message": { "type": "String" } } },
+
+  "errorPayloadTooLarge": "The request exceeds the server limits. {message}",
+  "@errorPayloadTooLarge": { "placeholders": { "message": { "type": "String" } } },
+
+  "errorMakePayment": "This content is not available until payment is made. {message}",
+  "@errorMakePayment": { "placeholders": { "message": { "type": "String" } } },
+
+  "errorServer": "The server is currently unavailable, please try again. {message}",
+  "@errorServer": { "placeholders": { "message": { "type": "String" } } },
+
+  "email": "Email",
+  "password": "Password",
+  "enterEmail": "Enter email",
+  "rememberMyAccount": "Remember my account",
+
+  "enter": "Enter",
+
+  "enterPasswordMinChars": "Enter a password of at least {count} characters",
+  "@enterPasswordMinChars": { "placeholders": { "count": { "type": "int" } } }
+}
